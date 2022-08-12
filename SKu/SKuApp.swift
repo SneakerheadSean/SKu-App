@@ -11,7 +11,7 @@ import SwiftUI
 struct SKuApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginSignUpView()
         }
     }
 }

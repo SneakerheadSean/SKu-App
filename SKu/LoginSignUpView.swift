@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LoginSignUpView.swift
 //  SKu
 //
 //  Created by Sean Hughes on 8/8/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LoginSignUpView: View {
     @State private var username = ""
     @State private var password = ""
     @State private var wrongUsername = 0
@@ -30,10 +30,10 @@ struct ContentView: View {
                     Text("Sku")
                         .font(.largeTitle)
                         .bold()
-                        
+                    
                     Text("Login to see your sneaker collection")
                         .font(.caption)
-                        
+                    
                     TextField("Username", text: $username)
                         .padding()
                         .frame(width: 300, height: 50)
@@ -56,11 +56,11 @@ struct ContentView: View {
                     .background(Color.blue)
                     .cornerRadius(10)
                     
-                    NavigationLink(destination: Text("You are logged in @\(username)"), isActive: $showingLoginScreen) {
-                        EmptyView()
+                    NavigationLink(destination: HomeView(), isActive: $showingLoginScreen) {
                     }
                 }
-            }        }
+            }
+        }
         .navigationBarHidden(true)
     }
     func authenticateUser(username: String, password: String) {
@@ -81,7 +81,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            ContentView()
+            LoginSignUpView()
         }
     }
 }
