@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A9683AB28A6B0BB00E19A0A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9683AA28A6B0BB00E19A0A /* HomeView.swift */; };
+		7A4F638828BE288D0083DE45 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4F638728BE288D0083DE45 /* HomeView.swift */; };
+		7A4F638A28BE29690083DE45 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4F638928BE29690083DE45 /* NewsView.swift */; };
+		7A4F638D28BE29C00083DE45 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4F638C28BE29C00083DE45 /* Settings.swift */; };
+		7A4F638F28BE2AE50083DE45 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4F638E28BE2AE50083DE45 /* Home.swift */; };
 		7AD3B29C28A15A6300EAB74A /* SKuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3B29B28A15A6300EAB74A /* SKuApp.swift */; };
 		7AD3B29E28A15A6300EAB74A /* LoginSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3B29D28A15A6300EAB74A /* LoginSignUpView.swift */; };
 		7AD3B2A028A15A6400EAB74A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD3B29F28A15A6400EAB74A /* Assets.xcassets */; };
@@ -15,7 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7A9683AA28A6B0BB00E19A0A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7A4F638728BE288D0083DE45 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7A4F638928BE29690083DE45 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		7A4F638C28BE29C00083DE45 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		7A4F638E28BE2AE50083DE45 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		7AD3B29828A15A6300EAB74A /* SKu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD3B29B28A15A6300EAB74A /* SKuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKuApp.swift; sourceTree = "<group>"; };
 		7AD3B29D28A15A6300EAB74A /* LoginSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUpView.swift; sourceTree = "<group>"; };
@@ -34,6 +40,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A4F638B28BE29760083DE45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AD3B29D28A15A6300EAB74A /* LoginSignUpView.swift */,
+				7A4F638728BE288D0083DE45 /* HomeView.swift */,
+				7A4F638928BE29690083DE45 /* NewsView.swift */,
+				7A4F638C28BE29C00083DE45 /* Settings.swift */,
+				7A4F638E28BE2AE50083DE45 /* Home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7AD3B28F28A15A6300EAB74A = {
 			isa = PBXGroup;
 			children = (
@@ -53,9 +71,8 @@
 		7AD3B29A28A15A6300EAB74A /* SKu */ = {
 			isa = PBXGroup;
 			children = (
+				7A4F638B28BE29760083DE45 /* Views */,
 				7AD3B29B28A15A6300EAB74A /* SKuApp.swift */,
-				7AD3B29D28A15A6300EAB74A /* LoginSignUpView.swift */,
-				7A9683AA28A6B0BB00E19A0A /* HomeView.swift */,
 				7AD3B29F28A15A6400EAB74A /* Assets.xcassets */,
 				7AD3B2A128A15A6400EAB74A /* Preview Content */,
 			);
@@ -140,9 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A9683AB28A6B0BB00E19A0A /* HomeView.swift in Sources */,
+				7A4F638828BE288D0083DE45 /* HomeView.swift in Sources */,
+				7A4F638A28BE29690083DE45 /* NewsView.swift in Sources */,
 				7AD3B29E28A15A6300EAB74A /* LoginSignUpView.swift in Sources */,
 				7AD3B29C28A15A6300EAB74A /* SKuApp.swift in Sources */,
+				7A4F638F28BE2AE50083DE45 /* Home.swift in Sources */,
+				7A4F638D28BE29C00083DE45 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
